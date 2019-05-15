@@ -3,7 +3,7 @@
   <head>
     <meta charset="<?php bloginfo('charset');?>">
     <title><?php bloginfo('name');?></title>
-    <meta name="author" content="Flint Naafs MG1B">
+    <meta name="author" content="Sam Harwig MG1B">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
   </head>
