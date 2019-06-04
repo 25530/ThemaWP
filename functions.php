@@ -1,11 +1,11 @@
 <?php
 
-function themaSam_bron() {
-  wp_enqueue_script('sam script', get_theme_file_uri('script.js'), NULL, '1.0', true);
+function themaSam_bronnen() {
+  wp_enqueue_script('script', get_theme_file_uri('js/scriptSam.js'), NULL, '1.0', true);
   wp_enqueue_style('style', get_stylesheet_uri());
 }
 
-add_action('wp_enqueue_scripts', 'themaSam');
+add_action('wp_enqueue_scripts', 'themaSam_bronnen');
 
 // registreer menu's van get thema
 
