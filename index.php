@@ -19,7 +19,14 @@ else :
   echo '<p>Er zijn geen berichten gevonden.</p>';
 
 endif;
-
+?>
+</div>
+<aside>
+<?php dynamic_sidebar('widget_aside'); ?>
+</aside>
+</main>
+</div>
+<?php
 //de wordpress loop
 
 // footer toevoegen
